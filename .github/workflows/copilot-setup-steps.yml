@@ -1,0 +1,29 @@
+name: "Copilot Setup Steps"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # 必须叫 copilot-setup-steps
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      # 根据需要在此处添加预安装步骤（比如安装依赖、工具、证书等）
+      - name: (Optional) Cache TeX-related packages
+        run: |
+          echo "No-op step: add your preinstall commands here if needed"
+        shell: bash
