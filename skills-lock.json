@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "math-modeling-paper": {
+      "source": "Lupynow/math-modeling-skills",
+      "sourceType": "github",
+      "skillPath": "skills/math-modeling-paper/SKILL.md",
+      "computedHash": "c8e161bca8f0fa0c77e51a3df8b12d87e74ed6a0b14aecf5cfe51498fbb89890"
+    },
+    "math-modeling-solver": {
+      "source": "Lupynow/math-modeling-skills",
+      "sourceType": "github",
+      "skillPath": "skills/math-modeling-solver/SKILL.md",
+      "computedHash": "164e831ebbe1de99a142a3e9464a6fc37f7446d834463012261338073f1ae94a"
+    }
+  }
+}
